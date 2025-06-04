@@ -11,7 +11,7 @@ env:
 jobs:
   build-and-release:
     name: Build and Release
-    if: github.repository_owner == 'memiiso'
+    #    if: github.repository_owner == 'memiiso'
     runs-on: ubuntu-latest
     permissions:
       contents: write
